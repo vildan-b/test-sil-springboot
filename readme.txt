@@ -7,4 +7,7 @@ mvn package
             ]
 
 
-            
+
+
+java -Dspring.profiles.active=dev -jar pet-clinic-0.0.1-SNAPSHOT.war
+

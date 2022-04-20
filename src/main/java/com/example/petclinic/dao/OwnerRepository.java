@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.petclinic.model.Owner;
 
-public interface OwnerRepository {
+public interface OwnerRepository{
     List<Owner> findAll();
     Owner findById(Long id);
     List<Owner> findByLastName(String lastName);
