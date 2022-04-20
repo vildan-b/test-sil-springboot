@@ -2196,3 +2196,86 @@ org.apache.jasper.JasperException: /WEB-INF/jsp/owners.jsp (line: [23], column: 
 2022-04-20 16:29:23.494 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner [firstName=Vildan, id=1, lastName=Bay], Owner [firstName=Hilmi, id=2, lastName=Bay], Owner [firstName=Azra, id=3, lastName=Bay], Owner [firstName=Gulush, id=4, lastName=Bay]]}
 2022-04-20 16:29:23.494 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
 2022-04-20 16:29:24.118 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-04-20 16:36:18.616 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:36:18.623 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:36:18.629 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:36:18.630 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:36:18.631 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:36:18.632 DEBUG 11116 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:36:18.661 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:07.028 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:07.030 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:07.037 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:07.037 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:07.045 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:07.046 DEBUG 11116 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:07.126 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:09.186 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:09.187 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:09.190 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:09.190 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:09.192 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:09.196 DEBUG 11116 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:09.218 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:30.344 DEBUG 11116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:30.345 DEBUG 11116 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:30.353 DEBUG 11116 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:30.353 DEBUG 11116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:30.355 DEBUG 11116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:30.356 DEBUG 11116 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:30.376 DEBUG 11116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:31.134 DEBUG 11116 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:31.136 DEBUG 11116 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:31.139 DEBUG 11116 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:31.140 DEBUG 11116 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:31.141 DEBUG 11116 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:31.144 DEBUG 11116 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:31.162 DEBUG 11116 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:31.289 DEBUG 11116 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:31.291 DEBUG 11116 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:31.294 DEBUG 11116 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:31.294 DEBUG 11116 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:31.295 DEBUG 11116 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:31.298 DEBUG 11116 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:31.315 DEBUG 11116 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:31.466 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:31.471 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:31.474 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:31.474 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:31.474 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:31.475 DEBUG 11116 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:31.503 DEBUG 11116 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:31.620 DEBUG 11116 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:31.622 DEBUG 11116 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:31.624 DEBUG 11116 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:31.625 DEBUG 11116 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:31.626 DEBUG 11116 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:31.627 DEBUG 11116 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:31.650 DEBUG 11116 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:31.772 DEBUG 11116 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:31.774 DEBUG 11116 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:31.776 DEBUG 11116 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:31.776 DEBUG 11116 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:31.777 DEBUG 11116 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:31.778 DEBUG 11116 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:31.802 DEBUG 11116 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:31.941 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:31.943 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:31.945 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:31.945 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:31.946 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:31.947 DEBUG 11116 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:31.969 DEBUG 11116 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:43.764 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/sss", parameters={}
+2022-04-20 16:37:43.766 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-20 16:37:43.774 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-20 16:37:43.774 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-04-20 16:37:43.775 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-04-20 16:37:43.776 DEBUG 11116 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-20 16:37:43.824 DEBUG 11116 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-04-20 16:37:53.702 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2022-04-20 16:37:53.704 DEBUG 11116 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.petclinic.web.PetClinicController#getOwners()
+2022-04-20 16:37:53.705 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-04-20 16:37:53.705 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner [firstName=Vildan, id=1, lastName=Bay], Owner [firstName=Hilmi, id=2, lastName=Bay], Owner [firstName=Azra, id=3, lastName=Bay], Owner [firstName=Gulush, id=4, lastName=Bay]]}
+2022-04-20 16:37:53.706 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
+2022-04-20 16:37:53.716 DEBUG 11116 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
