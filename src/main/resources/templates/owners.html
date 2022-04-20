@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Insertttt</title>
+    </head>
+    <body>
+
+<table>
+    <thead>
+        <tr style="font-weight:bold;" bgcolor="lightgreen">
+            <td>ID</td>
+            <td>FIRST NAME</td>
+            <td>LAST NAME</td>
+
+        </tr>
+    </thead>
+    <th:block th:each="owner,iterStat:${owners}">
+        <tr th:bgcolor="${iterStat.odd}?pink:lightgray">
+            <td th:text="${owner.id}"/>
+            <td th:text="${owner.firstName}"/>
+            <td th:text="${owner.lastName}"/>
+
+        </tr>
+    </th:block>
+</table>
+
+    </body>
+</html>

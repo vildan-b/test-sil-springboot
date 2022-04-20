@@ -3156,3 +3156,41 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2022-04-20 17:59:11.410  INFO 20068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2022-04-20 17:59:11.441  INFO 20068 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
 2022-04-20 17:59:11.516  INFO 20068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-20 17:59:11.580  INFO 20068 --- [restartedMain] c.e.petclinic.PetClinicApplication       : Started PetClinicApplication in 2.446 seconds (JVM running for 98.261)
+2022-04-20 17:59:11.586  INFO 20068 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-20 18:20:27.077  INFO 25268 --- [restartedMain] c.e.petclinic.PetClinicApplication       : Starting PetClinicApplication using Java 12 on HP-5CG5387SS8 with PID 25268 (C:\Users\VBayten\Documents\programlama\SpringBoot\pet-clinic\target\classes started by VBayten in c:\Users\VBayten\Documents\programlama\SpringBoot\pet-clinic)
+2022-04-20 18:20:27.080  INFO 25268 --- [restartedMain] c.e.petclinic.PetClinicApplication       : The following 1 profile is active: "dev"
+2022-04-20 18:20:27.307  INFO 25268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-20 18:20:27.309  INFO 25268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-20 18:20:32.220  INFO 25268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-20 18:20:32.259  INFO 25268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-20 18:20:32.261  INFO 25268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-20 18:20:33.780  INFO 25268 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-04-20 18:20:33.873  INFO 25268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-20 18:20:33.874  INFO 25268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6564 ms
+2022-04-20 18:20:35.811 DEBUG 25268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-20 18:20:36.134 DEBUG 25268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2022-04-20 18:20:36.140  INFO 25268 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-04-20 18:20:36.194 DEBUG 25268 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-20 18:20:36.219 DEBUG 25268 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-20 18:20:37.018  INFO 25268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-20 18:20:37.042  INFO 25268 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-04-20 18:20:37.245  INFO 25268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-20 18:20:37.310  INFO 25268 --- [restartedMain] c.e.petclinic.PetClinicApplication       : Started PetClinicApplication in 11.433 seconds (JVM running for 14.514)
+2022-04-20 18:20:39.100  INFO 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-20 18:20:39.101  INFO 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-20 18:20:39.102 DEBUG 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-04-20 18:20:39.103 DEBUG 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-04-20 18:20:39.103 DEBUG 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-04-20 18:20:39.112 DEBUG 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@183a65d6
+2022-04-20 18:20:39.113 DEBUG 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7092ac9d
+2022-04-20 18:20:39.114 DEBUG 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-20 18:20:39.114  INFO 25268 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2022-04-20 18:20:41.217 DEBUG 25268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2022-04-20 18:20:41.238 DEBUG 25268 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.petclinic.web.PetClinicController#getOwners()
+2022-04-20 18:20:41.265 DEBUG 25268 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-04-20 18:20:42.008 DEBUG 25268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-04-20 18:23:12.501 DEBUG 25268 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2022-04-20 18:23:12.503 DEBUG 25268 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.petclinic.web.PetClinicController#getOwners()
+2022-04-20 18:23:12.512 DEBUG 25268 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-04-20 18:23:12.550 DEBUG 25268 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
