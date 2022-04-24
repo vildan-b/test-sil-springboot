@@ -29,19 +29,19 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
-		<dependency>
+		  	<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.13.2</version>
+			<version>4.13.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+		<!-- <https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-engine</artifactId>
     <version>5.8.2</version>
     <scope>test</scope>
-</dependency>
+</dependency> 
 
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
 <dependency>
@@ -49,6 +49,13 @@
     <artifactId>hamcrest-all</artifactId>
     <version>1.3</version>
     <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>org.hamcrest</groupId>
+  <artifactId>hamcrest-core</artifactId>
+  <version>1.3</version>
+      <scope>test</scope>
+
 </dependency>
 
 
@@ -106,6 +113,13 @@
 
 
 	</dependencies>
+	  <dependencyManagement>
+	      <dependencies>
+	
+    </dependencies>
+
+  </dependencyManagement>
+
 
 	<build>
 		
@@ -117,8 +131,7 @@
 		
 		</plugins>
 
-		<sourceDirectory>src/main/java</sourceDirectory>
-    <testSourceDirectory>src/test/java</testSourceDirectory>
+	
 	</build>
 
 </project>
