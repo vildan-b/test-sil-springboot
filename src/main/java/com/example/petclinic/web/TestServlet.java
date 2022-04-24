@@ -17,6 +17,6 @@ public class TestServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
     		throws ServletException, IOException {
         System.out.println("doGet");
-        resp.getWriter().append("Server at: ").append(req.getContentType());
+        // resp.getWriter().append("Server at: ").append(req.getContentType());
     }
 }
