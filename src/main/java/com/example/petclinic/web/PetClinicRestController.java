@@ -3,12 +3,15 @@ package com.example.petclinic.web;
 import java.net.URI;
 import java.util.List;
 
+
 import com.example.petclinic.exceptions.InternalServerException;
 import com.example.petclinic.exceptions.OwnerNotFoundException;
 import com.example.petclinic.model.Owner;
 import com.example.petclinic.service.PetClinicService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -89,4 +92,28 @@ public class PetClinicRestController {
 
         }
     }
+
+
+    // @RequestMapping(method = RequestMethod.GET, value = "/owner/{id}", produces = "application/json")
+    // public ResponseEntity<?> getOwnerAsHateoasResource(@PathVariable("id") Long id) {
+    //     try {
+    //         Owner owner = petclinicService.findOwner(id);
+    //         EntityModel<Owner> resource = new EntityModel<Owner>(user);
+
+    //         org.springframework.hateoas.Link self = ControllerLinkBuilder.linkTo(PetClinicController.class).slash("/owner/"+id).withSelfRel();
+    //         org.springframework.hateoas.Link create = ControllerLinkBuilder.linkTo(PetClinicController.class).slash("/owner/"+id).withRel("create");
+    //         org.springframework.hateoas.Link update = ControllerLinkBuilder.linkTo(PetClinicController.class).slash("/owner/"+id).withRel("update");
+    //         org.springframework.hateoas.Link delete = ControllerLinkBuilder.linkTo(PetClinicController.class).slash("/owner/"+id).withRel("delete");
+    //         CollectionModel<Owner> resource = new Resource<Owner>(owner,self,create,update,delete);
+
+    //         return ResponseEntity.ok(owner);
+    //     } catch (OwnerNotFoundException e) {
+    //         return ResponseEntity.notFound().build();
+
+    //     }
+    // }
+
+
+
+
 }
