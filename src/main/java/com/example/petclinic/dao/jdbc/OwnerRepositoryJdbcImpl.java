@@ -15,7 +15,7 @@ import org.springframework.jdbc.core.RowMapper;
 
 import org.springframework.stereotype.Repository;
 
-@Repository("ownerRepository")
+@Repository
 public class OwnerRepositoryJdbcImpl implements OwnerRepository{
     
     @Autowired
@@ -58,15 +58,15 @@ public class OwnerRepositoryJdbcImpl implements OwnerRepository{
     }
 
     @Override
-    public void update(Owner owner) {
+    public Owner update(Owner owner) {
         // TODO Auto-generated method stub
-        
+       return null; 
     }
 
     @Override
     public void delete(Long id) {
-        // TODO Auto-generated method stub
-        
+String sql= "delete from t_owner where id= ?";
+jdbcTemplate.update(sql,id);        
     }
     
 }
